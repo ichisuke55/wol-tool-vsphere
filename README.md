@@ -2,13 +2,9 @@
 This repository is tool for wake-on-lan vsphere environment.
 
 ## Usage
-1. define env
+1. fill environment yaml file and set `env.yaml`
 ```
-export AUTH_ID=<YOUR_VSPHERE_USER_ID>
-export AUTH_PASS=<YOUR_VSPHERE_USER_PASS>
-export SESSION_URL=<YOUR_VSPHERE_FQDN>
-export SLACK_SIGNING_SECRET=<BOT_SIGNING_SECRET>
-export SLACK_TOKEN=<BOT_TOKEN>
+cp env.yaml.example env.yaml
 ```
 
 2. execute command
